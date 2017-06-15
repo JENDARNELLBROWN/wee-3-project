@@ -1,0 +1,42 @@
+/*colors -
+  Main Green: #61b34f
+  Light Green: #82c276
+*/
+
+* {
+	color: white;
+	font-size: 2vw;
+	box-sizing:border-box;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 58vw;
+	width: 48vw;
+	border: 1px solid black;
+	background-color: #61b34f;
+}
+
+.content-row {
+	height: 12vw;
+	display: flex;
+}
+
+.text-content {
+	display: flex;
+	border: .05em solid white;
+	flex-grow: 3;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 2vw;
+}
+
+.squares {
+	display: flex;
+	border: .05em solid white;
+	/*flex-grow: 0;*/
+	width: 12vw;
+	justify-content: center;
+	align-items: center;
+}
